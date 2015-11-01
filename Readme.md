@@ -76,10 +76,18 @@ sadfd
 
 ##Felhasználói dokumentáció
 ###Ajánlott hardver-, szoftver konfiguráció
-A futtatáshoz ajánlott hardver-, szoftver konfiguráció
+####A program használatához szükséges
+* Web-böngésző
+* Javascript (node.js)
 
 ###Telepítés
-Telepítés lépései: hogyan kerül a Githubról a célgépre a program
+* A komplett project letöteő a jobb oldali menü, "Download ZIP" gombjára kattintva
+* Kicsomagolás után, a server.js futtatásával indítható az alkalmazás
 
 ###A program használata
-A program használata
+* A program használatához regisztációszükséges
+* Regisztáció után be lehet jelentkezni
+* Ezt követően a tennivalók listáját láthatjuk
+* Itt vehetünk fel új tennivalót
+* Illetve törölhetünk, vagy módosíthatunk egy meglévőt
+* Ha befejeztük a munkát, a kilépés gombra kattintva léphetünk ki
