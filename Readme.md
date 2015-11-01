@@ -18,7 +18,8 @@
 
 ![Használatieset](docs/images/haszn_eset.png)
 
-Folyamatábra
+####Tennivaló hozzáadása
+![Hozzáadás](docs/images/hozzaad.png)
 
 Tervezés
 
