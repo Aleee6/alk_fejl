@@ -72,7 +72,17 @@
 ![Modellek](docs/images/models.png)
 
 ##Tesztelés
-sadfd
+###Egységteszt
+Az egységtesztet mocha és chai keretrendszerrel végeztem.
+
+###Funkcionális tesztelés
+Funkcionális teszteléshez a Selenium IDE-t használtam, segítségevel a következő folyamatot vizsgáltam meg:
+* Regisztráció
+* Bejelentkezés
+* Új tennivaló
+* Szerkesztés
+* Törlés
+* Kilépés
 
 ##Felhasználói dokumentáció
 ###Ajánlott hardver-, szoftver konfiguráció

@@ -9,6 +9,14 @@
         "createdAt": "2015-11-01T12:15:40.655Z",
         "updatedAt": "2015-11-01T13:51:43.479Z",
         "id": 1
+      },
+      {
+        "name": "Valaki",
+        "password": "$2a$10$BzA4YYoU9YgqvOuRsFBmKeZDiEFy78JfMLH1BQuvV2qhJly99rEre",
+        "role": "riporter",
+        "createdAt": "2015-11-01T18:10:34.641Z",
+        "updatedAt": "2015-11-01T18:11:12.043Z",
+        "id": 2
       }
     ]
   },
@@ -84,10 +92,10 @@
   },
   "counters": {
     "todo": {
-      "id": 4
+      "id": 5
     },
     "user": {
-      "id": 1
+      "id": 2
     }
   }
 }
