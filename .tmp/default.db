@@ -1,0 +1,93 @@
+{
+  "data": {
+    "todo": [],
+    "user": [
+      {
+        "name": "Aleee6",
+        "password": "$2a$10$MO6jGRK5JiRNumwCv7V2o.pCRlSfGuTNkDPWM0m2nP94A1O4EDbyO",
+        "role": "riporter",
+        "createdAt": "2015-11-01T12:15:40.655Z",
+        "updatedAt": "2015-11-01T12:19:23.594Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "todo": {
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "assigned",
+          "success",
+          "rejected",
+          "pending"
+        ]
+      },
+      "description": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "username": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "name": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "todo": {
+      "id": 3
+    },
+    "user": {
+      "id": 1
+    }
+  }
+}

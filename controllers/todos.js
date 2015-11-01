@@ -96,7 +96,7 @@ router.post('/new', function (req, res) {
 router.get('/edit/:id', function (req, res) {
     var validationErrors = (req.flash('validationErrors') || [{}]).pop();
     var data = (req.flash('data') || [{}]).pop();
-    req.app.models.todo.findOne({id:'11'}).exec(function findOneCB(err, found){
+    req.app.models.todo.findOne({id:req.params.id}).exec(function findOneCB(err, found){
         
         res.render('todos/edit', {
         validationErrors: validationErrors,
