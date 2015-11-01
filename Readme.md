@@ -21,11 +21,22 @@
 ####Tennivaló hozzáadása
 ![Hozzáadás](docs/images/hozzaad.png)
 
-Tervezés
+##Tervezés
+###Oldaltérkép
+*publikus
+  *főoldal
+  *about
+  *login
 
-Architektúra terv
-komponensdiagram
-Oldaltérkép
+*felhasználó
+  *főoldal
+  *about
+  *login/logout
+  *tennivalók
+    *hozzáadás
+    *szerkesztés
+    *törlés
+
 Végpontok
 Felhasználóifelület-modell
 Oldalvázlatok
