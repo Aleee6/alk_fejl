@@ -72,10 +72,14 @@
 ![Modellek](docs/images/models.png)
 
 ##Tesztelés
-
+sadfd
 
 ##Felhasználói dokumentáció
-
+###Ajánlott hardver-, szoftver konfiguráció
 A futtatáshoz ajánlott hardver-, szoftver konfiguráció
+
+###Telepítés
 Telepítés lépései: hogyan kerül a Githubról a célgépre a program
+
+###A program használata
 A program használata
