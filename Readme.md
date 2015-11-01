@@ -68,9 +68,8 @@
 ![Főoldal](docs/images/fooldal.png)
 ![Lista](docs/images/lista.png)
 
-Osztálymodell
-Adatmodell
-Adatbázisterv
+###Modellek
+![Modellek](docs/images/models.png)
 Állapotdiagram
 Dinamikus működés
 Szekvenciadiagram
