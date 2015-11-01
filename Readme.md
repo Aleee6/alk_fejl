@@ -23,19 +23,19 @@
 
 ##Tervezés
 ###Oldaltérkép
-*publikus
-  *főoldal
-  *about
-  *login
+* publikus
+  * főoldal
+  * about
+  * login
 
-*felhasználó
-  *főoldal
-  *about
-  *login/logout
-  *tennivalók
-    *hozzáadás
-    *szerkesztés
-    *törlés
+* felhasználó
+  * főoldal
+  * about
+  * login/logout
+  * tennivalók
+    * hozzáadás
+    * szerkesztés
+    * törlés
 
 Végpontok
 Felhasználóifelület-modell
