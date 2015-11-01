@@ -70,24 +70,11 @@
 
 ###Modellek
 ![Modellek](docs/images/models.png)
-Állapotdiagram
-Dinamikus működés
-Szekvenciadiagram
-Implementáció
 
-Fejlesztői környezet bemutatása
-Könyvtárstruktúrában lévő mappák funkiójának bemutatása
-Tesztelés
+##Tesztelés
 
-Automatikus tesztek szükségesek. Nem kell teljeskörű tesztelés, a hallgató mutassa meg, hogy képes ilyen tesztek írására.
 
-Tesztelési környezet bemutatása
-Egységtesztek: legalább 1 adatmodell tesztelése
-Funkcionális felületi tesztek: legalább 1 folyamat tesztelése
-VAGY: Selenium IDE használatával
-VAGY: zombie.js használatával
-Tesztesetek felsorolása: milyen eseteket próbált végig a hallgató
-Felhasználói dokumentáció
+##Felhasználói dokumentáció
 
 A futtatáshoz ajánlott hardver-, szoftver konfiguráció
 Telepítés lépései: hogyan kerül a Githubról a célgépre a program
