@@ -37,10 +37,37 @@
     * szerkesztés
     * törlés
 
-Végpontok
-Felhasználóifelület-modell
-Oldalvázlatok
-Designterv (nem kell, elég a végső megvalósítás kinézete)
+* operátor
+  * főoldal
+  * about
+  * login/logout
+  * tennivalók
+    * hozzáadás
+    * szerkesztés
+    * törlés
+  * felhasználók
+    * hozzáadás
+    * szerkesztés
+    * törlés 
+
+###Végpontok
+* GET / : Főoldal
+* GET /about : Információ
+* GET /login : Bejelentkezés
+* POST /login : Bejelentkezési adatok felküldése
+* GET /login/signup : Regisztráció
+* POST /login/signup : Regisztációs adatok felküldése
+* GET /todos/list : Tennivalók listája
+* GET /todos/new : Új tennivaló hozzáadása
+* POST /todos/new : Új tennivaló hozzáadása, adatok küldése
+* GET /todos/edit/:id : Tennivaló szerkesztése
+* POST /todos/dit/:id : Tennivaló szerkesztése, adatok küldése
+* GET /todos/delete/:id : Tennivaló törlése
+
+###Oldalvázlatok
+![Főoldal](docs/images/fooldal.png)
+![Lista](docs/images/lista.png)
+
 Osztálymodell
 Adatmodell
 Adatbázisterv

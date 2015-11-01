@@ -7,7 +7,7 @@
         "password": "$2a$10$MO6jGRK5JiRNumwCv7V2o.pCRlSfGuTNkDPWM0m2nP94A1O4EDbyO",
         "role": "riporter",
         "createdAt": "2015-11-01T12:15:40.655Z",
-        "updatedAt": "2015-11-01T12:19:23.594Z",
+        "updatedAt": "2015-11-01T13:51:43.479Z",
         "id": 1
       }
     ]
@@ -84,7 +84,7 @@
   },
   "counters": {
     "todo": {
-      "id": 3
+      "id": 4
     },
     "user": {
       "id": 1
