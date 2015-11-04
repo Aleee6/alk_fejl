@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://alkfejltodo.herokuapp.com/" />
+<title>TestTodo</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TestTodo</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Bejelentkezés</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=name</td>
+	<td>user2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>user2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/div/div/div</td>
+	<td>× Helytelen adatok.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Regisztráció</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=name</td>
+	<td>user2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>user2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=name</td>
+	<td>user2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>user2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=p.navbar-text.navbar-right</td>
+	<td>Üdv, user2!</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Új tennivaló felvitele</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=leiras</td>
+	<td>valami</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/div/div/div</td>
+	<td>× Tennivaló sikeresen felvéve!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='errorTable']/tbody/tr/td[3]</td>
+	<td>user2</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='errorTable']/tbody/tr/td[4]</td>
+	<td>valami</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Szerkesztés</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=leiras</td>
+	<td>valami2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/div/div/div</td>
+	<td>× Tennivaló sikeresen frissítve!</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//table[@id='errorTable']/tbody/tr/td[4]</td>
+	<td>valami2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Törlés</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/div/div/div</td>
+	<td>× Tennivaló sikeresen törölve!</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Kilépés</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Bejelentkezés</td>
+	<td>Bejelentkezés</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
